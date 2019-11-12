@@ -8,6 +8,7 @@ mysqlclient = "==1.3.12"
 celery = "==4.1.1"
 redis = "*"
 Django = "==2.0.13"
+requests = "*"
 
 [requires]
 python_version = "3.6"

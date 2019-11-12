@@ -21,12 +21,12 @@ MEDIA_URL = '/media/'
 
 DATABASES = {
     'default': {
-            'ENGINE': 'django.db.backends.mysql',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-            'NAME': 'test_loonflownew',  # Or path to database file if using sqlite3.
-            'USER': 'loonflownew',  # Not used with sqlite3.
-            'PASSWORD': '123456',  # Not used with sqlite3.
-            'HOST': '127.0.0.1',  # Set to empty string for localhost. Not used with sqlite3.
-            'PORT': '3306',  # Set to empty string for default. Not used with sqlite3.
+            'ENGINE': 'django.db.backends.sqlite3',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+            'NAME': 'test_loonflownew.sql',  # Or path to database file if using sqlite3.
+            # 'USER': 'loonflownew',  # Not used with sqlite3.
+            # 'PASSWORD': '123456',  # Not used with sqlite3.
+            # 'HOST': '127.0.0.1',  # Set to empty string for localhost. Not used with sqlite3.
+            # 'PORT': '3306',  # Set to empty string for default. Not used with sqlite3.
         }
 }
 
